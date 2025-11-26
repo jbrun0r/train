@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Treinos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #808080 0%, #808080 100%);
+            min-height: 100vh;
+            padding: 20px;
+            padding-bottom: 250px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        .timer-display {
+            font-size: 20px;
+            opacity: 0.9;
+        }
+
+        .workout-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+
+        .workout-tab {
+            background: rgba(255,255,255,0.1);
+            color: white;
+            border: 2px solid rgba(255,255,255,0.3);
+            padding: 12px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .workout-tab:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        .workout-tab.active {
+            background: white;
+            color: #2c3e50;
+            border-color: white;
+        }
+
+        .exercise-card {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .exercise-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .exercise-gif {
+            width: 60px;
+            height: 60px;
+            margin-right: 15px;
+            border-radius: 10px;
+            object-fit: cover;
+            background: #f0f0f0;
+        }
+
+        .exercise-info h2 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .exercise-info p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .exercise-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .detail-box {
+            background: #f5f5f5;
+            border-radius: 12px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .detail-label {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .detail-value {
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .start-button {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            border: 8px solid rgba(255,255,255,0.3);
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .start-button:hover {
+            transform: translateX(-50%) scale(1.05);
+        }
+
+        .start-button:active {
+            transform: translateX(-50%) scale(0.95);
+        }
+
+        .start-button.active {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+        }
+
+        .button-icon {
+            font-size: 40px;
+            margin-bottom: 5px;
+        }
+
+        .button-text {
+            font-size: 24px;
+        }
+
+        .countdown {
+            font-size: 48px;
+            font-weight: bold;
+            display: none;
+        }
+
+        .start-button.active .button-text,
+        .start-button.active .button-icon {
+            display: none;
+        }
+
+        .start-button.active .countdown {
+            display: block;
+        }
+
+        .loading {
+            text-align: center;
+            color: white;
+            padding: 40px;
+            font-size: 18px;
+        }
+
+        @media (max-width: 600px) {
+            .exercise-details {
+                grid-template-columns: 1fr;
+            }
+            
+            .start-button {
+                width: 150px;
+                height: 150px;
+                font-size: 20px;
+            }
+            
+            .countdown {
+                font-size: 36px;
+            }
+
+            .workout-tabs {
+                flex-direction: column;
+            }
+
+            .workout-tab {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="workoutTitle">Meus Treinos</h1>
+            <div class="timer-display" id="totalTimer">00:00:00</div>
+        </div>
+
+        <div class="workout-tabs">
+            <!-- Tabs will be generated dynamically from JSON -->
+        </div>
+
+        <div id="exercisesContainer">
+            <div class="loading">Loading workouts...</div>
+        </div>
+    </div>
+
+    <button class="start-button" id="startBtn">
+        <!--<span class="button-icon">🏆</span>-->
+        <span class="button-text">Start</span>
+        <span class="countdown" id="countdown">60</span>
+    </button>
+
+    <script>
+        // URL do JSON hospedado no GitHub Pages
+        const JSON_URL = 'https://raw.githubusercontent.com/jbrun0r/train/refs/heads/main/train.json'; // Substitua pelo caminho do seu JSON
+
+        let workoutsData = null;
+        let currentWorkoutIndex = 0;
+
+        // Carrega os dados do JSON
+        async function loadWorkouts() {
+            try {
+                const response = await fetch(JSON_URL);
+                const data = await response.json();
+                workoutsData = data.workouts;
+                
+                // Renderiza as tabs dinamicamente
+                renderTabs();
+                // Renderiza o primeiro treino
+                renderExercises(0);
+            } catch (error) {
+                document.getElementById('exercisesContainer').innerHTML = 
+                    '<div class="loading">Error loading workouts. Check JSON path.</div>';
+                console.error('Error loading JSON:', error);
+            }
+        }
+
+        // Função para criar as tabs dinamicamente
+        function renderTabs() {
+            const tabsContainer = document.querySelector('.workout-tabs');
+            tabsContainer.innerHTML = '';
+
+            workoutsData.forEach((workout, index) => {
+                const tab = document.createElement('button');
+                tab.className = `workout-tab ${index === 0 ? 'active' : ''}`;
+                tab.textContent = workout.title;
+                tab.addEventListener('click', () => {
+                    document.querySelectorAll('.workout-tab').forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    currentWorkoutIndex = index;
+                    renderExercises(index);
+                });
+                tabsContainer.appendChild(tab);
+            });
+        }
+
+        // Função para criar os cards dos exercícios
+        function renderExercises(workoutIndex) {
+            const container = document.getElementById('exercisesContainer');
+            container.innerHTML = '';
+
+            if (!workoutsData || !workoutsData[workoutIndex]) {
+                container.innerHTML = '<div class="loading">Workout not found.</div>';
+                return;
+            }
+
+            const workout = workoutsData[workoutIndex];
+            document.getElementById('workoutTitle').textContent = workout.title;
+
+            workout.exercises.forEach(exercise => {
+                const card = document.createElement('div');
+                card.className = 'exercise-card';
+                
+                card.innerHTML = `
+                    <div class="exercise-header">
+                        <img src="${exercise.gifUrl}" alt="${exercise.name}" class="exercise-gif">
+                        <div class="exercise-info">
+                            <h2>${exercise.name}</h2>
+                            <p>${exercise.muscleGroup}</p>
+                        </div>
+                    </div>
+                    <div class="exercise-details">
+                        <div class="detail-box">
+                            <div class="detail-label">Sets</div>
+                            <div class="detail-value">${exercise.series}</div>
+                        </div>
+                        <div class="detail-box">
+                            <div class="detail-label">Reps</div>
+                            <div class="detail-value">${exercise.reps}</div>
+                        </div>
+                        <div class="detail-box">
+                            <div class="detail-label">Weight</div>
+                            <div class="detail-value">${exercise.weight}</div>
+                        </div>
+                        <div class="detail-box">
+                            <div class="detail-label">Rest</div>
+                            <div class="detail-value">${exercise.rest}</div>
+                        </div>
+                    </div>
+                `;
+                
+                container.appendChild(card);
+            });
+        }
+
+        // Timer functions
+        let totalSeconds = 0;
+        let totalInterval = null;
+        let countdownInterval = null;
+        let isRunning = false;
+
+        const startBtn = document.getElementById('startBtn');
+        const totalTimer = document.getElementById('totalTimer');
+        const countdown = document.getElementById('countdown');
+
+        function formatTime(seconds) {
+            const h = Math.floor(seconds / 3600);
+            const m = Math.floor((seconds % 3600) / 60);
+            const s = seconds % 60;
+            return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+        }
+
+        function startTotalTimer() {
+            if (!totalInterval) {
+                totalInterval = setInterval(() => {
+                    totalSeconds++;
+                    totalTimer.textContent = formatTime(totalSeconds);
+                }, 1000);
+            }
+        }
+
+        function startCountdown() {
+            let timeLeft = 60;
+            countdown.textContent = timeLeft;
+            startBtn.classList.add('active');
+            isRunning = true;
+
+            countdownInterval = setInterval(() => {
+                timeLeft--;
+                countdown.textContent = timeLeft;
+
+                if (timeLeft <= 0) {
+                    stopCountdown();
+                }
+            }, 1000);
+        }
+
+        function stopCountdown() {
+            clearInterval(countdownInterval);
+            countdownInterval = null;
+            startBtn.classList.remove('active');
+            isRunning = false;
+            countdown.textContent = '60';
+        }
+
+        startBtn.addEventListener('click', () => {
+            if (!isRunning) {
+                if (totalSeconds === 0) {
+                    startTotalTimer();
+                }
+                startCountdown();
+            } else {
+                stopCountdown();
+            }
+        });
+
+        // Carrega os treinos quando a página carrega
+        loadWorkouts();
+    </script>
+</body>
+</html>
