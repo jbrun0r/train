@@ -1,0 +1,156 @@
+{
+  "treinoA": {
+    "name": "Treino A",
+    "exercises": [
+      {
+        "name": "Supino Reto com Barra",
+        "muscleGroup": "Ombro, Peito",
+        "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/173.gif",
+        "series": "4",
+        "reps": "15-3x8-10",
+        "weight": "18 kg",
+        "rest": "60s"
+      },
+      {
+        "name": "Crucifixo no Voador",
+        "muscleGroup": "Peito",
+        "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/167.gif",
+        "series": "3",
+        "reps": "10-12",
+        "weight": "45 kg",
+        "rest": "60s"
+      },
+      {
+        "name": "Supino Inclinado com Barra",
+        "muscleGroup": "Ombro, Peito",
+        "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/174.gif",
+        "series": "3",
+        "reps": "12",
+        "weight": "10 kg",
+        "rest": "60s"
+      },
+      {
+        "name": "Pull Over com Halteres",
+        "muscleGroup": "Braço, Costas, Ombro, Peito",
+        "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/740.gif",
+        "series": "3",
+        "reps": "10",
+        "weight": "10 kg",
+        "rest": "60s"
+      },
+      {
+        "name": "Elevação Frontal com Barra",
+        "muscleGroup": "Costas, Ombro",
+        "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/155.gif",
+        "series": "3",
+        "reps": "12",
+        "weight": "5 kg",
+        "rest": "60s"
+      },
+      {
+        "name": "Elevação Lateral",
+        "muscleGroup": "Ombro",
+        "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/158.gif",
+        "series": "3",
+        "reps": "12",
+        "weight": "10 kg",
+        "rest": "60s"
+      },
+      {
+        "name": "Tríceps Francês",
+        "muscleGroup": "Braço",
+        "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/219.gif",
+        "series": "3",
+        "reps": "12",
+        "weight": "16 kg",
+        "rest": "60s"
+      },
+      {
+        "name": "Tríceps Pulley",
+        "muscleGroup": "Braço",
+        "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/226.gif",
+        "series": "3",
+        "reps": "12",
+        "weight": "30 kg",
+        "rest": "60s"
+      }
+    ]
+  },
+  "treinoB": {
+    "name": "Treino B",
+    "exercises": [
+      {
+        "name": "Puxada na Barra Fixa",
+        "muscleGroup": "Braço, Costas",
+        "gifUrl": "https://via.placeholder.com/60x60/e0e0e0/666?text=GIF",
+        "series": "3",
+        "reps": "8-10",
+        "weight": "-",
+        "rest": "60s"
+      },
+      {
+        "name": "Puxada no Gravitron",
+        "muscleGroup": "Braço, Costas",
+        "gifUrl": "https://via.placeholder.com/60x60/e0e0e0/666?text=GIF",
+        "series": "3",
+        "reps": "12",
+        "weight": "12 kg",
+        "rest": "60s"
+      },
+      {
+        "name": "Remada Hammer",
+        "muscleGroup": "Costas",
+        "gifUrl": "https://via.placeholder.com/60x60/e0e0e0/666?text=GIF",
+        "series": "3",
+        "reps": "10-12",
+        "weight": "18 kg",
+        "rest": "60s"
+      },
+      {
+        "name": "Pulley Frente",
+        "muscleGroup": "Braço, Costas",
+        "gifUrl": "https://via.placeholder.com/60x60/e0e0e0/666?text=GIF",
+        "series": "3",
+        "reps": "5x pico + 5x expl...",
+        "weight": "7 kg",
+        "rest": "60s"
+      },
+      {
+        "name": "Rosca Martelo com Halter",
+        "muscleGroup": "Antebraço, Braço",
+        "gifUrl": "https://via.placeholder.com/60x60/e0e0e0/666?text=GIF",
+        "series": "3",
+        "reps": "12",
+        "weight": "9 kg",
+        "rest": "60s"
+      },
+      {
+        "name": "Rosca Inversa no Cross",
+        "muscleGroup": "Antebraço, Braço",
+        "gifUrl": "https://via.placeholder.com/60x60/e0e0e0/666?text=GIF",
+        "series": "3",
+        "reps": "12",
+        "weight": "15 kg",
+        "rest": "60s"
+      },
+      {
+        "name": "Flexão de Punho",
+        "muscleGroup": "Antebraço",
+        "gifUrl": "https://via.placeholder.com/60x60/e0e0e0/666?text=GIF",
+        "series": "3",
+        "reps": "10",
+        "weight": "8 kg",
+        "rest": "-"
+      },
+      {
+        "name": "Extensão de Punho",
+        "muscleGroup": "Antebraço",
+        "gifUrl": "https://via.placeholder.com/60x60/e0e0e0/666?text=GIF",
+        "series": "3",
+        "reps": "10",
+        "weight": "3 kg",
+        "rest": "60s"
+      }
+    ]
+  }
+}
