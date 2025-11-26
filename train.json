@@ -85,7 +85,7 @@
         {
           "name": "Pull-Up",
           "muscleGroup": "Arm, Back",
-          "gifUrl": "https://via.placeholder.com/60x60/e0e0e0/666?text=GIF",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/122.gif",
           "series": "3",
           "reps": "8-10",
           "weight": "-",
@@ -94,7 +94,7 @@
         {
           "name": "Assisted Pull-Up (Gravitron)",
           "muscleGroup": "Arm, Back",
-          "gifUrl": "https://via.placeholder.com/60x60/e0e0e0/666?text=GIF",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/124.gif",
           "series": "3",
           "reps": "12",
           "weight": "12 kg",
@@ -103,7 +103,7 @@
         {
           "name": "Hammer Strength Row",
           "muscleGroup": "Back",
-          "gifUrl": "https://via.placeholder.com/60x60/e0e0e0/666?text=GIF",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/754.gif",
           "series": "3",
           "reps": "10-12",
           "weight": "18 kg",
@@ -121,7 +121,7 @@
         {
           "name": "Hammer Curl",
           "muscleGroup": "Forearm, Arm",
-          "gifUrl": "https://via.placeholder.com/60x60/e0e0e0/666?text=GIF",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/121.gif",
           "series": "3",
           "reps": "12",
           "weight": "9 kg",
@@ -130,7 +130,7 @@
         {
           "name": "Reverse Cable Curl",
           "muscleGroup": "Forearm, Arm",
-          "gifUrl": "https://via.placeholder.com/60x60/e0e0e0/666?text=GIF",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/611.gif",
           "series": "3",
           "reps": "12",
           "weight": "15 kg",
@@ -139,7 +139,7 @@
         {
           "name": "Wrist Curl",
           "muscleGroup": "Forearm",
-          "gifUrl": "https://via.placeholder.com/60x60/e0e0e0/666?text=GIF",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/112.gif",
           "series": "3",
           "reps": "10",
           "weight": "8 kg",
@@ -148,7 +148,7 @@
         {
           "name": "Wrist Extension",
           "muscleGroup": "Forearm",
-          "gifUrl": "https://via.placeholder.com/60x60/e0e0e0/666?text=GIF",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/112.gif",
           "series": "3",
           "reps": "10",
           "weight": "3 kg",
