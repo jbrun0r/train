@@ -161,7 +161,7 @@
       "title": "E",
       "exercises": [
         {
-          "name": "Cable Pulldown",
+          "name": "Lat Pulldown",
           "muscleGroup": "Arm, Back, Shoulder",
           "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/128.gif",
           "series": "4",
@@ -170,9 +170,9 @@
           "rest": "60s"
         },
         {
-          "name": "Neutral Grip Cable Row",
+          "name": "Neutral Grip Machine Row",
           "muscleGroup": "Arm, Back, Shoulder",
-          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/754.gif",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/330.gif",
           "series": "3",
           "reps": "12",
           "weight": "20 kg",
@@ -181,43 +181,43 @@
         {
           "name": "Pull Down",
           "muscleGroup": "Back, Shoulder",
-          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/128.gif",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/235.gif",
           "series": "3",
           "reps": "10-12",
           "weight": "25 kg",
           "rest": "60s"
         },
         {
-          "name": "Prone Cable Row",
+          "name": "Pronated Grip Seated Row",
           "muscleGroup": "Forearm, Back, Shoulder",
-          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/754.gif",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/333.gif",
           "series": "3",
           "reps": "12",
           "weight": "20 kg",
           "rest": "60s"
         },
         {
-          "name": "Barbell W Curl",
+          "name": "EZ-Bar Curl",
           "muscleGroup": "Forearm, Arm, Shoulder",
-          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/121.gif",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/306.gif",
           "series": "3",
           "reps": "10-12",
           "weight": "9 kg",
           "rest": "60s"
         },
         {
-          "name": "Hammer Curl",
+          "name": "Dumbbell Preacher Curl",
           "muscleGroup": "Forearm, Arm",
-          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/121.gif",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/282.gif",
           "series": "3",
           "reps": "10-12",
           "weight": "8 kg",
           "rest": "60s"
         },
         {
-          "name": "Incline Bench Bicep Curl",
+          "name": "Incline Dumbbell Curl",
           "muscleGroup": "Arm",
-          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/121.gif",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/310.gif",
           "series": "3",
           "reps": "10-12",
           "weight": "7 kg",
@@ -226,7 +226,7 @@
         {
           "name": "Plank",
           "muscleGroup": "Abs",
-          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/740.gif",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/236.gif",
           "series": "3",
           "reps": "60sec",
           "weight": "-",
