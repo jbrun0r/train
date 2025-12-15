@@ -161,39 +161,48 @@
       "title": "E",
       "exercises": [
         {
-          "name": "Pull-Up",
-          "muscleGroup": "Arm, Back",
-          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/122.gif",
-          "series": "3",
-          "reps": "8-10",
-          "weight": "-",
+          "name": "Cable Pulldown",
+          "muscleGroup": "Arm, Back, Shoulder",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/128.gif",
+          "series": "4",
+          "reps": "15-3x10-12",
+          "weight": "10 kg",
           "rest": "60s"
         },
         {
-          "name": "Assisted Pull-Up (Gravitron)",
-          "muscleGroup": "Arm, Back",
-          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/124.gif",
-          "series": "3",
-          "reps": "12",
-          "weight": "12 kg",
-          "rest": "60s"
-        },
-        {
-          "name": "Hammer Strength Row",
-          "muscleGroup": "Back",
+          "name": "Neutral Grip Cable Row",
+          "muscleGroup": "Arm, Back, Shoulder",
           "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/754.gif",
           "series": "3",
-          "reps": "10-12",
-          "weight": "18 kg",
+          "reps": "12",
+          "weight": "20 kg",
           "rest": "60s"
         },
         {
-          "name": "Cable Front Pulldown",
-          "muscleGroup": "Arm, Back",
+          "name": "Pull Down",
+          "muscleGroup": "Back, Shoulder",
           "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/128.gif",
           "series": "3",
-          "reps": "5x peak + 5x expl",
-          "weight": "7 kg",
+          "reps": "10-12",
+          "weight": "25 kg",
+          "rest": "60s"
+        },
+        {
+          "name": "Prone Cable Row",
+          "muscleGroup": "Forearm, Back, Shoulder",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/754.gif",
+          "series": "3",
+          "reps": "12",
+          "weight": "20 kg",
+          "rest": "60s"
+        },
+        {
+          "name": "Barbell W Curl",
+          "muscleGroup": "Forearm, Arm, Shoulder",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/121.gif",
+          "series": "3",
+          "reps": "10-12",
+          "weight": "9 kg",
           "rest": "60s"
         },
         {
@@ -201,35 +210,26 @@
           "muscleGroup": "Forearm, Arm",
           "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/121.gif",
           "series": "3",
-          "reps": "12",
-          "weight": "9 kg",
-          "rest": "60s"
-        },
-        {
-          "name": "Reverse Cable Curl",
-          "muscleGroup": "Forearm, Arm",
-          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/611.gif",
-          "series": "3",
-          "reps": "12",
-          "weight": "15 kg",
-          "rest": "60s"
-        },
-        {
-          "name": "Wrist Curl",
-          "muscleGroup": "Forearm",
-          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/112.gif",
-          "series": "3",
-          "reps": "10",
+          "reps": "10-12",
           "weight": "8 kg",
-          "rest": "-"
+          "rest": "60s"
         },
         {
-          "name": "Wrist Extension",
-          "muscleGroup": "Forearm",
-          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/112.gif",
+          "name": "Incline Bench Bicep Curl",
+          "muscleGroup": "Arm",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/121.gif",
           "series": "3",
-          "reps": "10",
-          "weight": "3 kg",
+          "reps": "10-12",
+          "weight": "7 kg",
+          "rest": "60s"
+        },
+        {
+          "name": "Plank",
+          "muscleGroup": "Abs",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/740.gif",
+          "series": "3",
+          "reps": "60sec",
+          "weight": "-",
           "rest": "60s"
         }
       ]
