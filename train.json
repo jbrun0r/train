@@ -144,16 +144,7 @@
           "reps": "10",
           "weight": "8 kg",
           "rest": "-"
-        },
-        {
-          "name": "Machine Triceps Dip",
-          "muscleGroup": "Arm",
-          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/223.gif",
-          "series": "3",
-          "reps": "12",
-          "weight": "12 kg",
-          "rest": "60s"
-        },
+        }
         {
           "name": "Wrist Extension",
           "muscleGroup": "Forearm",
@@ -217,10 +208,19 @@
         {
           "name": "Skull Crusher",
           "muscleGroup": "Arm",
-          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/602.gif",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/227.gif",
           "series": "3",
           "reps": "12",
           "weight": "5 kg",
+          "rest": "60s"
+        },
+        {
+          "name": "Machine Triceps Dip",
+          "muscleGroup": "Arm",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/223.gif",
+          "series": "3",
+          "reps": "12",
+          "weight": "12 kg",
           "rest": "60s"
         },
         {
