@@ -34,7 +34,7 @@
         {
           "name": "Dumbbell Pullover",
           "muscleGroup": "Arm, Back, Shoulder, Chest",
-          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/740.gif",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/130.gif",
           "series": "3",
           "reps": "10",
           "weight": "10 kg",
@@ -152,6 +152,75 @@
           "series": "3",
           "reps": "10",
           "weight": "3 kg",
+          "rest": "60s"
+        }
+      ]
+    },
+    {
+      "id": "workout-d",
+      "title": "D",
+      "exercises": [
+        {
+          "name": "Barbell Bench Press",
+          "muscleGroup": "Shoulder, Chest",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/173.gif",
+          "series": "4",
+          "reps": "15-3x8-10",
+          "weight": "18 kg",
+          "rest": "60s"
+        },
+        {
+          "name": "Pec Deck Fly",
+          "muscleGroup": "Chest",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/167.gif",
+          "series": "3",
+          "reps": "10-12",
+          "weight": "45 kg",
+          "rest": "60s"
+        },
+        {
+          "name": "Incline Barbell Bench Press",
+          "muscleGroup": "Shoulder, Chest",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/174.gif",
+          "series": "3",
+          "reps": "12",
+          "weight": "10 kg",
+          "rest": "60s"
+        },
+        {
+          "name": "Dumbbell Pullover",
+          "muscleGroup": "Arm, Back, Shoulder, Chest",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/130.gif",
+          "series": "3",
+          "reps": "10",
+          "weight": "10 kg",
+          "rest": "60s"
+        },
+        {
+          "name": "Dumbbell Lateral Raise",
+          "muscleGroup": "Shoulder",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/158.gif",
+          "series": "3",
+          "reps": "12",
+          "weight": "10 kg",
+          "rest": "60s"
+        },
+        {
+          "name": "Skull Crusher",
+          "muscleGroup": "Arm",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/602.gif",
+          "series": "3",
+          "reps": "12",
+          "weight": "5 kg",
+          "rest": "60s"
+        },
+        {
+          "name": "Band Pallof Press",
+          "muscleGroup": "Abs",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/822.gif",
+          "series": "3",
+          "reps": "12",
+          "weight": "30 kg",
           "rest": "60s"
         }
       ]
