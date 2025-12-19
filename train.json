@@ -146,12 +146,21 @@
           "rest": "-"
         },
         {
+          "name": "Machine Triceps Dip",
+          "muscleGroup": "Arm",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/223.gif",
+          "series": "3",
+          "reps": "12",
+          "weight": "12 kg",
+          "rest": "60s"
+        },
+        {
           "name": "Wrist Extension",
           "muscleGroup": "Forearm",
           "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/112.gif",
           "series": "3",
-          "reps": "10",
-          "weight": "3 kg",
+          "reps": "12",
+          "weight": "-",
           "rest": "60s"
         }
       ]
