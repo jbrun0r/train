@@ -151,7 +151,7 @@
           "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/112.gif",
           "series": "3",
           "reps": "12",
-          "weight": "-",
+          "weight": "5 kg",
           "rest": "60s"
         }
       ]
@@ -229,7 +229,7 @@
           "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/822.gif",
           "series": "3",
           "reps": "12",
-          "weight": "30 kg",
+          "weight": "-",
           "rest": "60s"
         }
       ]
