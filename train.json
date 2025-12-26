@@ -156,6 +156,85 @@
         }
       ]
     },
+    ,
+    {
+      "id": "workout-c",
+      "title": "C",
+      "exercises": [
+        {
+          "name": "Kettlebell Squat",
+          "muscleGroup": "Quads, Glutes",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/246.gif",
+          "series": "4",
+          "reps": "15-3x8-10",
+          "weight": "10",
+          "rest": "60s"
+        },
+        {
+          "name": "Seated Leg Curl",
+          "muscleGroup": "Quads, Hamstrings",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/187.gif",
+          "series": "3",
+          "reps": "12",
+          "weight": "12 kg",
+          "rest": "60s"
+        },
+        {
+          "name": "Incline Leg Press",
+          "muscleGroup": "Quads, Glutes, Calves",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/190.gif",
+          "series": "3",
+          "reps": "10-12",
+          "weight": "100 kg",
+          "rest": "60s"
+        },
+        {
+          "name": "Hip Abductor Machine",
+          "muscleGroup": "Glutes",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/210.gif",
+          "series": "3",
+          "reps": "12",
+          "weight": "25 kg",
+          "rest": "60s"
+        },
+        {
+          "name": "Leg Extension Machine",
+          "muscleGroup": "Quads",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/212.gif",
+          "series": "3",
+          "reps": "10",
+          "weight": "3 kg",
+          "rest": "60s"
+        },
+        {
+          "name": "Hip Adductor Machine",
+          "muscleGroup": "Inner Thighs, Adductors",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/611.gif",
+          "series": "3",
+          "reps": "12",
+          "weight": "15 kg",
+          "rest": "60s"
+        },
+        {
+          "name": "Standing Calf Raise",
+          "muscleGroup": "Calves",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/186.gif",
+          "series": "3",
+          "reps": "10",
+          "weight": "-",
+          "rest": "60s"
+        },
+        {
+          "name": "Seated Calf Raise",
+          "muscleGroup": "Calves",
+          "gifUrl": "https://sistemasca.blob.core.windows.net/arquivos/exercicios/195.gif",
+          "series": "3",
+          "reps": "10",
+          "weight": "-",
+          "rest": "60s"
+        }
+      ]
+    },
     {
       "id": "workout-d",
       "title": "D",
